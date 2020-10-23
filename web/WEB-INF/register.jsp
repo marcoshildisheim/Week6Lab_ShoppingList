@@ -14,9 +14,11 @@
     <body>
         <h1>Shopping List</h1>
         <form action="ShoppingList" method="POST">
-            <input type="text" name="unsername">
-            <input type="hidden" name="action" value="register">
-            <input type="submit" value="Register name">
+            <h4>Username:
+                <input type="text" name="username">
+                <input type="hidden" name="action" value="register">
+                <input type="submit" value="Register name">
+            </h4>
         </form>
     </body>
 </html>
